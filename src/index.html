@@ -12,13 +12,12 @@
   </head>
 
   <body>
-    <script type="text/javascript" src="./main.js"></script>
 
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       onsubmit="onSubmit()"
       method="post"
-      >
+    >
       <fieldset>
         <legend>Personal information</legend>
         <div class="form-field">
@@ -138,7 +137,9 @@
         </div>
 
         <div class="form-field">
-          <label for="favoriteBrandCar">What are your favorite brand of cars?</label>
+          <label for="favoriteBrandCar">
+            What are your favorite brand of cars?
+          </label>
           <select
             name="favoriteBrandCar"
             id="favoriteBrandCar"
@@ -147,7 +148,6 @@
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
-            <option value="disabled" disabled></option>
           </select>
         </div>
 
@@ -187,6 +187,8 @@
 
       <button type="submit">Submit</button>
     </form>
+
+    <script type="text/javascript" src="./main.js"></script>
 
   </body>
 </html>
